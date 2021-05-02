@@ -6,13 +6,14 @@ You can search and know about many movies and see the movies trailers.
 
 # Using Technologies:
 
-HTML
-CSS
-SASS
-REACT BOOTSTRAP
-REACT JS
-AXIOS
-https://api.themoviedb.org
+- HTML
+- CSS
+- SASS
+- REACT BOOTSTRAP
+- REACT JS
+- AXIOS
+- https://api.themoviedb.org
+- FAKER js "For put dummy images for the user. the image will change when the page reload"
 
 ## Available Scripts
 
