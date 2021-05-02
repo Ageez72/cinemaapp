@@ -1,0 +1,29 @@
+.movies {
+  margin: 40px 0;
+  h2 {
+    margin-bottom: 40px;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.8em;
+  }
+}
+.slick-slider {
+  > button {
+    top: -55px;
+    left: auto;
+    &.slick-prev {
+      right: 55px;
+    }
+    &.slick-next {
+      right: 24px;
+    }
+  }
+}
+.slick-slide {
+  h3 {
+    &:hover {
+      color: #fff;
+    }
+  }
+}

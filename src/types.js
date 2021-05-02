@@ -1,0 +1,2 @@
+export const SEARCH_TYPE = "SEARCH_TYPE";
+export const STARTED_MOVIES = "STARTED_MOVIES";

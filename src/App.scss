@@ -1,0 +1,44 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@font-face {
+  font-family: "Futura Bold";
+  src: url("./fonts/FuturaBT-BoldCondensed.eot");
+  src: url("./fonts/FuturaBT-BoldCondensed.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/FuturaBT-BoldCondensed.woff2") format("woff2"),
+    url("./fonts/FuturaBT-BoldCondensed.woff") format("woff"),
+    url("./fonts/FuturaBT-BoldCondensed.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura Light";
+  src: url("./fonts/FuturaBT-LightCondensed.eot");
+  src: url("./fonts/FuturaBT-LightCondensed.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/FuturaBT-LightCondensed.woff2") format("woff2"),
+    url("./fonts/FuturaBT-LightCondensed.woff") format("woff"),
+    url("./fonts/FuturaBT-LightCondensed.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+}
+.wrapper {
+  padding: 20px;
+  min-height: 100vh;
+  background: #000;
+  position: relative;
+}
+.cardImg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

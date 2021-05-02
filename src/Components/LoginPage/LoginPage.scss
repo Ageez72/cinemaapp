@@ -1,0 +1,36 @@
+.loginPage {
+  padding-top: 120px;
+  width: 50%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  @media (max-width: 374px) {
+    padding-top: 50px;
+  }
+  .form-group {
+    input {
+      border: none;
+      border-bottom: 1.6px solid #ccc;
+      border-radius: 0;
+      background-color: transparent;
+      height: 55px;
+      color: #ccc;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      display: block;
+      width: 100%;
+      font-size: 1rem;
+      padding: 0.375rem 0.75rem;
+      outline: none;
+    }
+  }
+  a {
+    padding: 8px 50px;
+    border-radius: 0;
+    border-width: 2px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+  }
+}

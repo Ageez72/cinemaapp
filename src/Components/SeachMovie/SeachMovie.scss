@@ -1,0 +1,43 @@
+#page-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  li {
+    margin: 0 10px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+  .active {
+    color: #ffcc33;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: "Roboto";
+  }
+}
+.seachResults {
+  display: flex;
+  flex-wrap: wrap;
+  .movieResult {
+    width: 25%;
+    margin-bottom: 50px;
+    .card-wrapper {
+      border-radius: 0;
+      .poster {
+        img {
+          border-radius: 0;
+        }
+      }
+    }
+
+    @media (min-width: 600px) and (max-width: 768px) {
+      width: 50%;
+    }
+    @media (max-width: 599px) {
+      width: 100%;
+    }
+  }
+}

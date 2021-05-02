@@ -1,0 +1,76 @@
+.dashboard {
+  margin: 40px 0;
+  padding-bottom: 40px;
+
+  .carousel-item {
+    height: 300px;
+    .overlay {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: #00000045;
+    }
+    .carousel-caption {
+      left: 45px;
+      right: auto;
+      text-align: left;
+      .newMovie {
+        font-family: "Roboto";
+        font-weight: 300;
+        margin-bottom: 5px;
+      }
+      .artistName {
+        text-transform: uppercase;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 1.3em;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+      }
+      h3 {
+        font-family: "Futura Bold";
+        text-transform: uppercase;
+        font-size: 3.5em;
+        margin-bottom: 10px;
+      }
+      .viewTrailer {
+        color: #ffcc33;
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 0.9em;
+        cursor: pointer;
+      }
+      @media (max-width: 600px) {
+        top: 50%;
+        transform: translateY(-50%);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      @media (max-width: 599px) {
+        left: 10px;
+        .newMovie,
+        .artistName {
+          display: none;
+        }
+        h3 {
+          font-size: 2em;
+        }
+      }
+    }
+    @media (max-width: 600px) {
+      height: auto;
+    }
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+}

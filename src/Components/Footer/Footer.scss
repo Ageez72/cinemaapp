@@ -1,0 +1,18 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  .socialIcon {
+    margin: 0px 7px;
+    cursor: pointer;
+  }
+  p {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 0.72em;
+    color: #dedede;
+  }
+}
