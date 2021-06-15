@@ -4,6 +4,8 @@ An app that shows the main films of the moment, and various information about yo
 
 You can search and know about many movies and see the movies trailers.
 
+Live version: https://cinemaapp2.netlify.app
+
 # Using Technologies:
 
 - HTML
